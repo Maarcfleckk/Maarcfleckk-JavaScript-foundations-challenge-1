@@ -9,3 +9,19 @@
       Log 'name' value.
 
 */
+
+let $name = "Marc Fleck";
+
+function updateValue($newName){
+  $name = $newName;
+  return $name;
+}
+
+updateValue("Bethoven");
+console.log($name);
+
+updateValue(true);
+console.log($name);
+
+updateValue(28);
+console.log($name);
