@@ -13,7 +13,6 @@ let duckLet; //Declarem la varialbe 'duckLet' i automàticament passa a ser a la
 duckLet = "Moo"; // Inicialitzem la variable, surt de la 'Death Zone' 
 console.log(duckLet); //Imprimim el valor de la variable per consola
 
-const duckConst; //Declarem la varialble, pero aquest tipus de variable ens obliga a inicialitzarla al moment, pel que la consola peta
-duckConst = "Moo";
+const duckConst= "Moo"; //Declarem la varialble, pero aquest tipus de variable ens obliga a inicialitzarla al moment o en cas contrari la consola peta.
 console.log(duckConst);
 
