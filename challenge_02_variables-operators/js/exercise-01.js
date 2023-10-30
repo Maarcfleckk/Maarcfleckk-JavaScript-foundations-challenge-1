@@ -12,7 +12,7 @@
 
 let name = "Marc Fleck";
 
-function updateValue(newName){
+function updateValue(newName) {
   name = newName;
   return name;
 }
