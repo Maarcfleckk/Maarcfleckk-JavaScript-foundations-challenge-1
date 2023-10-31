@@ -9,12 +9,12 @@
 */
 let loggedIn = false;
 let loop = 0;
-while(loggedIn == false){
-    if(loop == 3){
-        loggedIn = true;
-    } else{
-        console.log("Incorrect login credentials");
-    }
-    loop++;
+while (loggedIn == false) {
+  if (loop == 3) {
+    loggedIn = true;
+  } else {
+    console.log("Incorrect login credentials");
+  }
+  loop++;
 }
 console.log("Successfully logged in!");

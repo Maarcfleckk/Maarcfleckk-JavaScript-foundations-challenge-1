@@ -20,13 +20,13 @@
 */
 
 let i = 1;
-while(i <= 100){
-    if (i == 100) {
-        console.log("You made it!");
-    } else if (i == 50) {
-        console.log("Half way here!");
-    } else if (i % 10 == 0) {
-        console.log("Checkpoint! " + i);
-    }
-    i++;
+while (i <= 100) {
+  if (i == 100) {
+    console.log("You made it!");
+  } else if (i == 50) {
+    console.log("Half way here!");
+  } else if (i % 10 == 0) {
+    console.log("Checkpoint! " + i);
+  }
+  i++;
 }
