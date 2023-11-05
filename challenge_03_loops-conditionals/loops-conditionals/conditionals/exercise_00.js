@@ -17,4 +17,22 @@ if (animal == "cat") {
 } else {
   console.log("Must be an alien");
 }
+
+animal = "dog";
+if (animal == "cat") {
+  console.log("Meow!");
+} else if (animal == "dog") {
+  console.log("Woof!");
+} else {
+  console.log("Must be an alien");
+}
+
+animal = "hits";
+if (animal == "cat") {
+  console.log("Meow!");
+} else if (animal == "dog") {
+  console.log("Woof!");
+} else {
+  console.log("Must be an alien");
+}
 console.log("--- Animal check complete ---");
