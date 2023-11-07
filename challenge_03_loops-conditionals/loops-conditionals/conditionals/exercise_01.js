@@ -7,15 +7,28 @@
 
     HINT: modulus operator ( % ) is your friend
 */
-let number = 10;
-if (number % 2 == 0) {
-  console.log("Even");
-} else {
-  console.log("Odd");
+
+/**
+ * isEvenOrOdd
+ */
+const evenOdd = function (number) {
+  const result =
+    number % 2 === 0 ? `Number ${number} is EVEN` : `Number ${number} is ODD`;
+
+  return result;
+};
+
+/**
+ * Program execution
+ */
+console.log("###############################");
+console.log("--- Is EVEN or ODD Program ---");
+
+for (let iteration = 0; iteration < 5; iteration++) {
+  const number = Math.floor(Math.random() * 100);
+
+  const result = evenOdd(number);
+  console.log(result);
 }
-number = 7;
-if (number % 2 == 0) {
-  console.log("Even");
-} else {
-  console.log("Odd");
-}
+
+console.log("--- Is EVEN or ODD complete ---");
