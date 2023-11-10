@@ -30,7 +30,7 @@ const isTenthWhile = function (startNumber, limitNumber) {
       console.log("You made it!\nAll, done!");
     }
 
-    if (currentNumber !== 50) {
+    if (currentNumber === 50) {
       console.log("Half way there!");
     }
 
