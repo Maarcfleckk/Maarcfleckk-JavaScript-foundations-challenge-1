@@ -4,11 +4,11 @@
     2. Log the result of any function call.
 */
 function getTypeOf(value) {
-    return typeof value;
+  return typeof value;
 }
 
-console.log(getTypeOf("Hello")); //string       
-console.log(getTypeOf(42)); //number           
-console.log(getTypeOf(true)); //boolean            
-console.log(getTypeOf(null)); //object           
+console.log(getTypeOf("Hello")); //string
+console.log(getTypeOf(42)); //number
+console.log(getTypeOf(true)); //boolean
+console.log(getTypeOf(null)); //object
 console.log(getTypeOf(undefined)); //undefined

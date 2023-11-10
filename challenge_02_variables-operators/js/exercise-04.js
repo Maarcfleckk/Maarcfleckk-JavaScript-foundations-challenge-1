@@ -9,7 +9,7 @@
     Once you see the results, write in a comment why it works that way
 */
 true && console.log("moo");
-// This line uses the && (logical AND) operator. 
+// This line uses the && (logical AND) operator.
 // The first operand is true, so the second operand (console.log("moo")) is evaluated and executed.
 // Therefore, "moo" will be displayed in the console.
 
