@@ -26,7 +26,7 @@ const isTenthWhile = function (startNumber, limitNumber) {
   let currentNumber = startNumber;
 
   while (currentNumber <= limitNumber) {
-    if (currentNumber !== 100) {
+    if (currentNumber === 100) {
       console.log("You made it!\nAll, done!");
     }
 
